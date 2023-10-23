@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Quicksand:wght@500&family=Roboto:wght@100;400&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nosifer&family=Quicksand:wght@500&family=Roboto:wght@100;400&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Inter:wght@300&family=Nosifer&family=Quicksand:wght@500&family=Roboto:wght@100;400&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap');
+
+body {
+  background: rgb(224, 219, 227);
+  color: whitesmoke;
+  font-family: Roboto, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  font-family: Cairo, Arial, Helvetica, sans-serif;
+}

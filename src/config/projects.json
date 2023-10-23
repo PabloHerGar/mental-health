@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "Progressa Lean",
+      "description": "Progressa Lean ha ayudado a más de 200 empresas de diferentes sectores a implantar una cultura y un modelo de Gestión Lean en sus organizaciones. Se produce una transferencia real del conocimiento a las organizaciones. Siempre con un compromiso con los resultados. Es diferenciador la sostenibilidad en el tiempo del Modelo de Gestión Lean implantado por la propia organización. A través de nuestros programas formativos Lean hemos formado a más de 200 empresas en los principios y técnicas Lean con un enfoque práctico y cercano a la realidad empresarial.",
+      "url": "https://www.progressalean.com/",
+      "image": "images/calculator.svg"
+    },
+    {
+      "title": "Fundacion La Caixa",
+      "description": "El empleo facilita el reconocimiento social, fomenta la vida independiente y contribuye al bienestar y a la salud, también en el caso de personas con problemas de salud mental. Por ello, este programa de salud mental desarrolla planes de apoyo para facilitar la ocupación de personas con trastornos mentales y promover la salud mental en el trabajo.",
+      "url": "https://incorpora.fundacionlacaixa.org/salud-mental",
+      "image": "images/mindfulness.svg"
+    },
+    {
+      "title": "Montaner",
+      "description": "Actualmente, no cabe duda de que la mayoría de trabajadores/as, en algún que otro momento, se ven forzados a trabajar bajo presión. Esto se debe a que el mercado laboral es cada vez más competitivo, lo que exige adecuarse a los estándares internacionales de calidad con la mayor agilidad posible. Por eso, saber dominar el trabajo bajo presión es una soft skill que cada vez se valora más. Pero, antes que nada, conviene distinguir lo que es trabajar bajo presión y lo que es trabajar con estrés.",
+      "url": "https://montaner.com/blog/trabajo-bajo-presion-como-gestionarlo/",
+      "image": "images/creative_team.svg"
+    }
+  ]
+}

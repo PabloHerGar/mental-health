@@ -1,0 +1,21 @@
+---
+import header from '../config/header.json'
+
+import logo from '../config/logo.json'
+---
+
+<div class='text-zinc-300 mb-5'>
+  {
+    header.map(head => (
+      <a href={head.url} target='_blank'>
+        <button class='text-cyan-950 bg-rose-200 px-10 py-1 hover:bg-yellow-900 text-xs'>
+          {head.title}
+        </button>
+      </a>
+    ))
+  }
+</div>
+
+<div>
+  <img src='../../public/images/mental_health.svg' alt='' />
+</div>

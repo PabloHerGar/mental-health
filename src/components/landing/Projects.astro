@@ -1,0 +1,33 @@
+---
+import { projects } from '../../config/projects.json'
+---
+
+<div class='flex justify-center items-center'>
+  <h2
+    class='bg-green-900 text-center font-bold text-5xl mt-10 mb-4 rounded-xl p-5 text-zinc-300'
+  >
+    Proyectos realizados
+  </h2>
+</div>
+
+{
+  projects.map(project => (
+    <div class='flex flex-col mb-2 md:flex-row text-center md:text-left bg-sky-600 p-10 rounded-xl text-zinc-300'>
+      <div class='flex-1 pd-4'>
+        <h2 class=' text-slate-800 font-semibold text-2xl my-4'>
+          {project.title}
+        </h2>
+        <p class='py-2'>{project.description}</p>
+        <a href={project.url} target='_blank'>
+          <button class='bg-indigo-500 px-3 py-2 hover:bg-indigo-400'>
+            + info
+          </button>
+        </a>
+      </div>
+
+      <div class='flex-1'>
+        <img src={project.image} class='w-72 m-auto' alt='' />
+      </div>
+    </div>
+  ))
+}

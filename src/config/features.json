@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Escuchar",
+    "description": "Es muy importante conocer el problema y para eso tienes que obtener la información de las personas dagnificadas"
+  },
+  {
+    "title": "Evitar presiones",
+    "description": "Cuando un empleado tiene presiones desde gerencia o por fecha de entrega suele tener las habilidades mermadas."
+  },
+  {
+    "title": "Analisis",
+    "description": "Ante cualquier situacion dificil hay que tener un analisis para poder sacar todo lo posible con los recursos disponibles."
+  },
+  {
+    "title": "Comunicación",
+    "description": "La base de toda situación delicada es el dialogo para poder acercar posturas para un buen común."
+  },
+  {
+    "title": "Compromiso",
+    "description": "Una vez alcanzado el protocolo de comunicación entre ambas parte se trata de afianzar esas posturas comprometiendo a realizar las condiciones pactadas."
+  },
+  {
+    "title": "Reciclaje",
+    "description": "A medida que pasa el tiempo se necesita implantar nuevos compromisos y dejar de lado los que ya se hayan quedado obsoletos. "
+  }
+]
