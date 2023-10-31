@@ -3,26 +3,23 @@ import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title='Contact'>
-  <section class='bg-slate-800 p-5 rounded-xl my-4'>
-    <h1 class='text-center text-3xl'>Contacto</h1>
-  </section>
+  <section>
+    <h2>Contacto</h2>
 
-  <h1 class='w-40 text-center bg-fuchsia-950 rounded-xl mb-5'>Registro</h1>
-  <form class='bg-pink-400 flex flex-col rounded-xl'>
-    <label class='m-5'>
-      Usuario:
-      <input type='text' name='username' />
-    </label>
-    <label class='m-5'>
-      Correo electrónico:
-      <input type='email' name='email' />
-    </label>
-    <label class='m-5'>
-      Contraseña:
-      <input type='password' name='password' />
-    </label>
-  </form>
-  <div class='flex justify-center items-center'>
-    <button class='w-40 bg-fuchsia-950 mt-1 mb-10 rounded-xl'>Enviar</button>
-  </div>
+    <form class='contact'>
+      <label class='m-5'>
+        Usuario:
+        <input type='text' name='username' />
+      </label>
+      <label class='m-5'>
+        Correo electrónico:
+        <input type='email' name='email' />
+      </label>
+      <label class='m-5'>
+        Contraseña:
+        <input type='password' name='password' />
+      </label>
+      <button class='btnbody'>Enviar</button>
+    </form>
+  </section>
 </Layout>

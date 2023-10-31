@@ -1,15 +1,289 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Quicksand:wght@500&family=Roboto:wght@100;400&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nosifer&family=Quicksand:wght@500&family=Roboto:wght@100;400&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Inter:wght@300&family=Nosifer&family=Quicksand:wght@500&family=Roboto:wght@100;400&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap');
 
 body {
   background: rgb(224, 219, 227);
-  color: whitesmoke;
+  color: black;
   font-family: Roboto, Geneva, Tahoma, sans-serif;
 }
 
-header {
-  font-family: Cairo, Arial, Helvetica, sans-serif;
+section {
+  background: rgb(89, 130, 134);
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+}
+
+article {
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  background: rgb(30 41 59);
+  color: rgb(212 212 216);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  display: flex;
+}
+
+h2 {
+  color: rgb(106, 68, 75);
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 1.25rem;
+}
+
+h3 {
+  color: rgb(30 41 59);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 0.75rem;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+p {
+  color: rgb(40, 19, 4);
+  padding: 1.25rem;
+}
+.btnbody {
+  color: rgb(8, 51, 68);
+  padding: 0.5rem;
+  background: rgb(99, 102, 241);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  margin-top: 0.75rem;
+}
+.btnbody:hover {
+  background: rgb(129, 140, 248);
+}
+.btnbody {
+  color: rgb(8, 51, 68);
+  padding: 0.5rem;
+  background: rgb(99, 102, 241);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  margin-top: 0.75rem;
+}
+.btnbody:hover {
+  background: rgb(129, 140, 248);
+}
+.divheader {
+  color: rgb(212 212 216);
+  margin-bottom: 1.25rem;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 500px;
+  width: 500%;
+}
+
+.pintro {
+  color: rgb(40, 19, 4);
+  padding: 1.75rem;
+}
+.btnintro {
+  color: rgb(8, 51, 68);
+  padding: 0.5rem;
+  background: rgb(99, 102, 241);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  margin-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.articleintro {
+  background: rgb(30 132 199);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  padding: 1.25rem;
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .articleintro {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.articleintro2 {
+  display: block;
+}
+.imgintro {
+  width: 20rem;
+  padding-top: 1.5rem;
+}
+
+.feature {
+  background: rgb(30 132 199);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+.articlefeature {
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .articlefeature {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.articletitul {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  background: rgb(30 132 199);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+}
+
+.arttitul {
+  text-align: center;
+}
+
+.imgtitul {
+  width: 5rem;
+  margin: auto;
+}
+.divtitul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ptitul {
+  margin-top: 1.5rem;
+}
+
+.articleproject {
+  background: rgb(30 132 199);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  padding: 1.25rem;
+  display: block;
+}
+@media (min-width: 768px) {
+  .articleproject {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .articleproject {
+    text-align: left;
+  }
+}
+
+.imgproject {
+  display: block;
+  width: 18rem;
+  margin: auto;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.divfooter {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 0.75rem;
+}
+@media (min-width: 768px) {
+  .divfooter {
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .divfooter {
+    text-align: left;
+  }
+}
+
+.btnfooter {
+  color: rgb(8 51 68);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background: rgb(99, 102, 241);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  margin-top: 0.75rem;
+  margin-left: 0.75rem;
+}
+.btnfooter:hover {
+  background: rgb(129, 140, 248);
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.contact {
+  background: rgb(30 132 199);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

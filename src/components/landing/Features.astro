@@ -1,0 +1,18 @@
+---
+import features from '../../config/features.json'
+---
+
+<section>
+  <h2>Habilidades</h2>
+
+  <article class='articlefeature'>
+    {
+      features.map(feature => (
+        <div class='feature'>
+          <h3>{feature.title}</h3>
+          <p>{feature.description}</p>
+        </div>
+      ))
+    }
+  </article>
+</section>

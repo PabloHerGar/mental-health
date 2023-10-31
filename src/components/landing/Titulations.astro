@@ -1,0 +1,47 @@
+---
+import universities from '../../config/universities.json'
+---
+
+<section>
+  <h2>Titulaciones certificadas</h2>
+
+  <section class='articletitul'>
+    <p>
+      Aqui puedo demostrar mi desarrollo profesional en las universidades donde
+      he podido desarrollar mis facultades intelectuales.
+    </p>
+    <!-- <article class='grid grid-cols-2 flex-1 gap-4'> -->
+    <!-- <div>
+        <img src='/images/goteborg.svg' class='w-20 m-auto' alt='' />
+        <p class='text-center mt-4'>Universidad de Goteborg</p>
+      </div>
+      <div class='text-center'>
+        <img src='/images/michigan.svg' class='w-20 m-auto' alt='' />
+        <p class='mt-4'>Universidad de Michigan</p>
+      </div>
+      <div class='text-center'>
+        <img src='/images/oxford.svg' class='w-20 m-auto' alt='' />
+        <p class='mt-4'>Universidad de Oxford</p>
+      </div>
+      <div class='text-center'>
+        <img src='/images/sydney.svg' class='w-20 m-auto' alt='' />
+        <p class='mt-4'>Universidad de Sidney</p>
+      </div> -->
+
+    <div class='divtitul'>
+      {
+        universities.map(university => (
+          <article class='arttitul'>
+            <img
+              src={`/images/${university.title.toLowerCase()}.svg`}
+              class='imgtitul'
+              alt='{university}'
+            />
+            <p class='ptitul'>Universidad de {university.title}</p>
+          </article>
+        ))
+      }
+    </div>
+    <!-- </article> -->
+  </section>
+</section>
