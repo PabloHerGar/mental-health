@@ -2,6 +2,23 @@
 import header from '../config/header.json'
 ---
 
+<!-- El Header suele ir contenido dentro de la etiqueta header. Un ejemplo sería el siguiente respecto a tu código:
+
+  <header> <- No es necesaria la clase 'divheader' porque ya tienes la etiqueta correspondiente.
+    <nav> <- Los links suelen ir en una etiqueta nav.
+    {
+      links.map(link => ( <- Cambiaría el nombre de headers a links para que sea más descriptivo.
+        <a href={link.url} class='btnfooter'>
+          {link.title}
+        </a>
+      ))
+    }
+  </nav>
+
+    <img class='logo' src='../../public/images/mental_health.svg' alt='' /> <- La imagen va contenida en el header porque es parte del mismo.
+  </header>
+
+-->
 <div class='divheader'>
   {
     header.map(head => (
