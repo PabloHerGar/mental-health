@@ -1,15 +1,19 @@
 ---
-import header from '../config/header.json'
+import links from '../config/header.json'
 ---
 
-<div class='divheader'>
-  {
-    header.map(head => (
-      <a href={head.url} class='btnfooter'>
-        {head.title}
-      </a>
-    ))
-  }
-</div>
-
-<img class='logo' src='../../public/images/mental_health.svg' alt='' />
+<header>
+  <nav>
+    {
+      links.map(link => (
+        <a href={link.url} class='btn_header'>
+          {link.title}
+        </a>
+      ))
+    }
+  </nav>
+  <section class='section_header'>
+    <img class='logo' src='../../public/images/mental_health.svg' alt='' />
+    <h1>Mental Health</h1>
+  </section>
+</header>

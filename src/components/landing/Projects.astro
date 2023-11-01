@@ -6,15 +6,15 @@ import { projects } from '../../config/projects.json'
   <h2>Proyectos realizados</h2>
   {
     projects.map(project => (
-      <article class='articleproject '>
+      <article class='article_projects '>
         <h3>{project.title}</h3>
         <p>{project.description}</p>
 
-        <a class='btnbody' href={project.url} target='_blank'>
+        <a class='btn_body' href={project.url} target='_blank'>
           + info
         </a>
 
-        <img src={project.image} class='imgproject' alt='' />
+        <img src={project.image} class='img_projects' alt='' />
       </article>
     ))
   }

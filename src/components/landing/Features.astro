@@ -5,14 +5,14 @@ import features from '../../config/features.json'
 <section>
   <h2>Habilidades</h2>
 
-  <article class='articlefeature'>
+  <ol class='article_features'>
     {
       features.map(feature => (
-        <div class='feature'>
+        <li class='li_features'>
           <h3>{feature.title}</h3>
           <p>{feature.description}</p>
-        </div>
+        </li>
       ))
     }
-  </article>
+  </ol>
 </section>

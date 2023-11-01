@@ -5,7 +5,7 @@ import universities from '../../config/universities.json'
 <section>
   <h2>Titulaciones certificadas</h2>
 
-  <section class='articletitul'>
+  <article class='article_titles'>
     <p>
       Aqui puedo demostrar mi desarrollo profesional en las universidades donde
       he podido desarrollar mis facultades intelectuales.
@@ -28,20 +28,20 @@ import universities from '../../config/universities.json'
         <p class='mt-4'>Universidad de Sidney</p>
       </div> -->
 
-    <div class='divtitul'>
+    <ol class='ol_titles'>
       {
         universities.map(university => (
-          <article class='arttitul'>
+          <li class='li_titles'>
             <img
               src={`/images/${university.title.toLowerCase()}.svg`}
-              class='imgtitul'
+              class='img_titles'
               alt='{university}'
             />
-            <p class='ptitul'>Universidad de {university.title}</p>
-          </article>
+            <p class='p_titles'>Universidad de {university.title}</p>
+          </li>
         ))
       }
-    </div>
+    </ol>
     <!-- </article> -->
-  </section>
+  </article>
 </section>
