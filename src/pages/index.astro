@@ -5,12 +5,16 @@ import Intro from '../components/landing/Intro.astro'
 import Titles from '../components/landing/Titles.astro'
 import Projects from '../components/landing/Projects.astro'
 import Layout from '../layouts/Layout.astro'
-
-// components
 ---
 
 <Layout title='Blog'>
   <Intro />
+  <!-- Encapsular <AboutPage /> en etiquetas section. Explicado en About.astro. -->
+  <!-- 
+    <section>
+      <AboutPage />
+    </section>
+  -->
   <About />
   <Titles />
   <Features />

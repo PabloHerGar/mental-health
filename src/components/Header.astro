@@ -2,34 +2,21 @@
 import { links } from '../config/header.json'
 ---
 
-<!-- El Header suele ir contenido dentro de la etiqueta header. Un ejemplo sería el siguiente respecto a tu código:
-
-  <header> <- No es necesaria la clase 'divheader' porque ya tienes la etiqueta correspondiente.
-    H1 <- Si en tus páginas no va a haber un título h1 puedes colocar uno general aquí, como el nombre de la web 'Mental Health'
-    <nav> <- Los links suelen ir en una etiqueta nav.
-    {
-      links.map(link => ( <- Cambiaría el nombre de headers a links para que sea más descriptivo.
-        <a href={link.url} class='btnfooter'>
-          {link.title}
-        </a>
-      ))
-    }
-  </nav>
-
-    <img class='logo' src='../../public/images/mental_health.svg' alt='' /> <- La imagen va contenida en el header porque es parte del mismo. De todas formas, en este caso quedaría mejor con la etiqueta de CSS background-image de la etiqueta header como imagen de fondo
-  </header>
-
--->
 <header>
   <nav>
     {
-      links.map(link => (
-        <a href={link.url} class='btn_header'>
-          {link.title}
-        </a>
-      ))
+      links.map(
+        (
+          link // (link: Link) <- El tipo de dato del parámetro se debe definir, en este caso arriba como interfaz.
+        ) => (
+          <a href={link.url} class='btn_header'>
+            {link.title}
+          </a>
+        )
+      )
     }
   </nav>
+  <!-- No es necesaria una section para dos elementos como el título o la imagen principal de la web. Se puede usar un div. -->
   <section class='section_header'>
     <img class='logo' src='../../public/images/mental_health.svg' alt='' />
     <h1>Mental Health</h1>

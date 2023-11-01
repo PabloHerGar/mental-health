@@ -2,31 +2,6 @@
 import { universities } from '../../config/universities.json'
 ---
 
-<!-- <section> <- No hace falta un section para cada componente si no va a haber partes diferenciadas entre sí en la misma página
-  <h2>Titulaciones certificadas</h2> <- El título va dentro de la section si la hay
-
-  <section class='articletitul'> <- No pongas dos sections seguidas
-    <p>
-      Aqui puedo demostrar mi desarrollo profesional en las universidades donde
-      he podido desarrollar mis facultades intelectuales.
-    </p>
-
-    <div class='divtitul'> <- No englobes listas de elementos con div, usa ol o ul
-      {
-        universities.map(university => (
-          <article class='arttitul'> <- No pongas articles dentro de listas, usa li
-            <img
-              src={`/images/${university.title.toLowerCase()}.svg`}
-              class='imgtitul'
-              alt='{university}'
-            />
-            <p class='ptitul'>Universidad de {university.title}</p>
-          </article>
-        ))
-      }
-    </div>
-  </section>
-</section> -->
 <section>
   <h2>Titulaciones certificadas</h2>
 
@@ -55,16 +30,20 @@ import { universities } from '../../config/universities.json'
 
     <ol class='ol_titles'>
       {
-        universities.map(university => (
-          <li class='li_titles'>
-            <img
-              src={`/images/${university.title.toLowerCase()}.svg`}
-              class='img_titles'
-              alt='{university}'
-            />
-            <p class='p_titles'>Universidad de {university.title}</p>
-          </li>
-        ))
+        universities.map(
+          (
+            university // (university: University) <- El tipo de dato del parámetro se debe definir, en este caso arriba como interfaz.
+          ) => (
+            <li class='li_titles'>
+              <img
+                src={`/images/${university.title.toLowerCase()}.svg`}
+                class='img_titles'
+                alt='{university}'
+              />
+              <p class='p_titles'>Universidad de {university.title}</p>
+            </li>
+          )
+        )
       }
     </ol>
     <!-- </article> -->
