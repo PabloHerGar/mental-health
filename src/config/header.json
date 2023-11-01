@@ -1,14 +1,16 @@
-[
-  {
-    "title": "Home",
-    "url": "/"
-  },
-  {
-    "title": "Sobre mi",
-    "url": "/about"
-  },
-  {
-    "title": "Contacto",
-    "url": "/contact"
-  }
-]
+{
+  "links": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "Sobre mi",
+      "url": "/about"
+    },
+    {
+      "title": "Contacto",
+      "url": "/contact"
+    }
+  ]
+}

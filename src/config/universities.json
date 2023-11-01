@@ -1,14 +1,16 @@
-[
-  {
-    "title": "Goteborg"
-  },
-  {
-    "title": "Michigan"
-  },
-  {
-    "title": "Oxford"
-  },
-  {
-    "title": "Queen"
-  }
-]
+{
+  "universities": [
+    {
+      "title": "Goteborg"
+    },
+    {
+      "title": "Michigan"
+    },
+    {
+      "title": "Oxford"
+    },
+    {
+      "title": "Queen"
+    }
+  ]
+}
