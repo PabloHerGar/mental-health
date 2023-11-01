@@ -2,6 +2,21 @@
 import features from '../../config/features.json'
 ---
 
+<!-- <section> <- No hace falta un section para cada componente si no va a haber partes diferenciadas entre sí en la misma página
+  <h2>Habilidades</h2>
+
+  <article class='articlefeature'> <- No englobes listas de elementos con article, usa ol o ul
+    {
+      features.map(feature => (
+        <div class='feature'> <- No pongas div dentro de listas, usa li para englobar elementos
+          <h3>{feature.title}</h3>
+          <p>{feature.description}</p>
+        </div>
+      ))
+    }
+  </article>
+</section>
+-->
 <section>
   <h2>Habilidades</h2>
 
