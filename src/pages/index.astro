@@ -8,15 +8,25 @@ import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title='Blog'>
-  <Intro />
   <!-- Encapsular <AboutPage /> en etiquetas section. Explicado en About.astro. -->
   <!-- 
     <section>
       <AboutPage />
     </section>
   -->
-  <About />
-  <Titles />
-  <Features />
-  <Projects />
+  <section>
+    <Intro />
+  </section>
+  <section>
+    <About />
+  </section>
+  <section>
+    <Titles />
+  </section>
+  <section>
+    <Features />
+  </section>
+  <section>
+    <Projects />
+  </section>
 </Layout>

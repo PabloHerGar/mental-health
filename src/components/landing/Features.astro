@@ -7,16 +7,12 @@ import { features } from '../../config/features.json'
 
   <ul class='ul_features'>
     {
-      features.map(
-        (
-          feature // (feature: Feature) <- El tipo de dato del parámetro se debe definir, en este caso arriba como interfaz.
-        ) => (
-          <li class='li_features'>
-            <h3>{feature.title}</h3>
-            <p>{feature.description}</p>
-          </li>
-        )
-      )
+      features.map(feature => (
+        <li class='li_features'>
+          <h3>{feature.title}</h3>
+          <p>{feature.description}</p>
+        </li>
+      ))
     }
   </ul>
 </section>

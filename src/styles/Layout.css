@@ -53,15 +53,16 @@ footer {
   -ms-border-radius: 0.75rem;
   -o-border-radius: 0.75rem;
   width: 100%;
-  margin-top: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 2.5rem;
+  padding: 2.5rem 0;
   display: grid;
   justify-content: space-evenly;
   text-align: center;
   gap: 0.75rem;
 }
+
+/* .ul_home {
+  display: ;
+} */
 
 .div_footer {
   display: flex;
@@ -107,6 +108,8 @@ h4 {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  display: flex;
+  flex-direction: column;
 }
 p {
   color: rgb(40, 19, 4);
@@ -240,7 +243,7 @@ p {
   width: 5rem;
   margin: auto;
 }
-.ol_titles {
+.ul_titles {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -314,4 +317,9 @@ p {
 
 .label_contact {
   margin: 1.25rem;
+}
+
+.article_foooter {
+  display: grid;
+  flex-direction: column;
 }

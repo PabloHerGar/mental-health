@@ -1,22 +1,22 @@
 {
-  "footers": [
+  "lists": [
     {
       "title": "Principal",
       "links": [
         {
           "title": "Inicio",
           "url": "/",
-          "target": ""
+          "target": "_self"
         },
         {
           "title": "Sobre mí",
           "url": "/about",
-          "target": ""
+          "target": "_self"
         },
         {
           "title": "Contacto",
           "url": "/contact",
-          "target": ""
+          "target": "_self"
         }
       ]
     },
@@ -26,17 +26,17 @@
         {
           "title": "Titulaciones",
           "url": "/titles",
-          "target": ""
+          "target": "_self"
         },
         {
           "title": "Habilidades",
           "url": "/features",
-          "target": ""
+          "target": "_self"
         },
         {
           "title": "Proyectos realizados",
           "url": "/projects",
-          "target": ""
+          "target": "self"
         }
       ]
     },

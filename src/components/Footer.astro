@@ -1,36 +1,22 @@
+---
+import { lists } from '../config/footer.json'
+---
+
 <footer>
-  <ul class='ul_flexcol'>
-    <!-- El título va fuera de la lista -->
-    <h4>Principal</h4>
-    <li><a href='/'>Inicio</a></li>
-    <li><a href='/about'>Sobre mi</a></li>
-    <li><a href='/contact'>Contacto</a></li>
-  </ul>
-  <ul class='ul_flexcol'>
-    <!-- El título va fuera de la lista -->
-    <h4>Apartados</h4>
-
-    <li><a href='/titles'>Titulaciones</a></li>
-    <li><a href='/features'>Habilidades</a></li>
-    <li><a href='/projects'>Proyectos realizados</a></li>
-  </ul>
-
-  <ul>
-    <h4>Redes Sociales</h4>
-    <li>
-      <a href='https://www.facebook.com/?locale=es_ES' target='_blank'>
-        Facebook</a
-      >
-    </li>
-    <li>
-      <a href='https://www.instagram.com/' target='_blank'>Instagram</a>
-    </li>
-    <li>
-      <a
-        href='https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D'
-        target='_blank'>Twitter</a
-      >
-    </li>
-    <li><a href='https://www.tiktok.com/es/' target='_blank'>TikTok</a></li>
-  </ul>
+  {
+    lists.map(list => (
+      <div>
+        <h4>{list.title}</h4>
+        <ul>
+          {list.links.map(link => (
+            <li>
+              <a href={link.url} target={link.target}>
+                {link.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))
+  }
 </footer>
