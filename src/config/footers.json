@@ -1,0 +1,69 @@
+{
+  "footers": [
+    {
+      "title": "Principal",
+      "links": [
+        {
+          "title": "Inicio",
+          "url": "/",
+          "target": ""
+        },
+        {
+          "title": "Sobre mí",
+          "url": "/about",
+          "target": ""
+        },
+        {
+          "title": "Contacto",
+          "url": "/contact",
+          "target": ""
+        }
+      ]
+    },
+    {
+      "title": "Apartados",
+      "links": [
+        {
+          "title": "Titulaciones",
+          "url": "/titles",
+          "target": ""
+        },
+        {
+          "title": "Habilidades",
+          "url": "/features",
+          "target": ""
+        },
+        {
+          "title": "Proyectos realizados",
+          "url": "/projects",
+          "target": ""
+        }
+      ]
+    },
+    {
+      "title": "Redes Sociales",
+      "links": [
+        {
+          "title": "Facebook",
+          "url": "https://www.facebook.com/?locale=es_ES",
+          "target": "_blank"
+        },
+        {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/",
+          "target": "_blank"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D",
+          "target": "_blank"
+        },
+        {
+          "title": "TikTok",
+          "url": "https://www.tiktok.com/es/",
+          "target": "_blank"
+        }
+      ]
+    }
+  ]
+}
